@@ -4,11 +4,34 @@ run:
 linters:
   enable:
     - gofmt
-  disable:
-    - errcheck
+    - bodyclose
+    - staticcheck
+    - unused
+    - gci
+    - gomodguard
+    - tenv
     - gosimple
     - govet
+  disable:
+    - errcheck
     - ineffassign
-    - staticcheck
     - structcheck
-    - unused
+linters-settings:
+  gci:
+    sections:
+      - standard
+      - default
+      - prefix(github.com/khulnasoft-lab/)
+      - blank
+      - dot
+  gomodguard:
+    blocked:
+      modules:
+        - github.com/hashicorp/goversion:
+            recommendations:
+              - github.com/khulnasoft-lab/goversion
+            reason: "`khulnasoft-lab/goversion` is degisned for our use-cases"
+        - github.com/Masterminds/semver:
+            recommendations:
+              - github.com/khulnasoft-lab/goversion
+            reason: "`khulnasoft-lab/goversion` is degisned for our use-cases"
