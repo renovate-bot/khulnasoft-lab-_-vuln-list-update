@@ -9,10 +9,11 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/khulnasoft-lab/vuln-list-update/utils"
 	"github.com/spf13/afero"
 	"golang.org/x/xerrors"
 	pb "gopkg.in/cheggaaa/pb.v1"
+
+	"github.com/khulnasoft-lab/vuln-list-update/utils"
 )
 
 var (
