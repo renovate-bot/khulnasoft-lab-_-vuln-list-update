@@ -11,10 +11,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/khulnasoft-lab/vuln-list-update/utils"
 	jsonpointer "github.com/mattn/go-jsonpointer"
 	"golang.org/x/xerrors"
 	pb "gopkg.in/cheggaaa/pb.v1"
+
+	"github.com/khulnasoft-lab/vuln-list-update/utils"
 )
 
 type NVD struct {
