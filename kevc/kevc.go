@@ -2,11 +2,13 @@ package kevc
 
 import (
 	"encoding/json"
-	"github.com/cheggaaa/pb"
-	"github.com/khulnasoft-lab/vuln-list-update/utils"
-	"golang.org/x/xerrors"
 	"log"
 	"path/filepath"
+
+	"github.com/cheggaaa/pb"
+	"golang.org/x/xerrors"
+
+	"github.com/khulnasoft-lab/vuln-list-update/utils"
 )
 
 const (
