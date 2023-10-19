@@ -1,5 +1,5 @@
 run:
-  go: 1.18
+  go: 1.20
   timeout: 5m
 linters:
   enable:
@@ -27,7 +27,7 @@ linters-settings:
   gomodguard:
     blocked:
       modules:
-        - github.com/hashicorp/goversion:
+        - github.com/hashicorp/go-version:
             recommendations:
               - github.com/khulnasoft-lab/goversion
             reason: "`khulnasoft-lab/goversion` is degisned for our use-cases"
@@ -35,3 +35,4 @@ linters-settings:
             recommendations:
               - github.com/khulnasoft-lab/goversion
             reason: "`khulnasoft-lab/goversion` is degisned for our use-cases"
+
