@@ -1,3 +1,28 @@
+
+Skip to content
+
+    khulnasoft-lab
+    /
+    vuln-list-update
+
+Code
+Issues 6
+Pull requests 6
+Actions
+Projects
+Security
+
+    Insights
+
+Squash vuln-list repo
+Squash vuln-list repo #1
+
+Jobs
+
+Run details
+
+Workflow file for this run
+.github/workflows/squash.yml at 4c2c29a
 name: Squash vuln-list repo
 
 on:
@@ -6,24 +31,22 @@ on:
     - cron: '0 0 1 * *'
 
 jobs:
-  squash:
+  build:
     runs-on: ubuntu-latest
     steps:
     - name: Install dependencies
       run: |
         sudo apt-get -y update
         sudo apt-get -y install git-filter-repo
-
     - name: Setup GitHub user email and name
       run: |
         git config --global user.email "action@github.com"
         git config --global user.name "GitHub Action"
-
     - name: Clone a shallow repo
-      uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11
+      uses: actions/checkout@v3
       with:
         repository: ${{ github.repository_owner }}/vuln-list
-        token: ${{ secrets.ORG_REPO_TOKEN }}
+        token: ${{ secrets.ACCESS_TOKEN }}
         path: vuln-list
         fetch-depth: 2000
 
@@ -32,4 +55,5 @@ jobs:
         cd vuln-list
         git replace -f --graft $(git rev-list --max-parents=0 HEAD)
         git filter-repo --force
-        git push --force --set-upstream https://${{ secrets.ORG_REPO_TOKEN }}@github.com/${{ github.repository_owner }}/vuln-list.git main
+        git push --force --set-upstream https://${{ secrets.ACCESS_TOKEN }}@github.com/${{ github.repository_owner }}/vuln-list.git main
+ci: squash `vuln-list` using git-filter-repo (#212) · khulnasoft-lab/vuln-list-update@4c2c29a 
