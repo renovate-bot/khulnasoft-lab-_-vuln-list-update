@@ -1,28 +1,3 @@
-
-Skip to content
-
-    khulnasoft-lab
-    /
-    vuln-list-update
-
-Code
-Issues 6
-Pull requests 6
-Actions
-Projects
-Security
-
-    Insights
-
-Squash vuln-list repo
-Squash vuln-list repo #1
-
-Jobs
-
-Run details
-
-Workflow file for this run
-.github/workflows/squash.yml at 4c2c29a
 name: Squash vuln-list repo
 
 on:
