@@ -16,7 +16,7 @@ require (
 	github.com/shurcooL/graphql v0.0.0-20181231061246-d48a9a75455f
 	github.com/spf13/afero v1.10.0
 	github.com/stretchr/testify v1.8.4
-	golang.org/x/exp v0.0.0-20220321124402-2d6d886f8a82
+	golang.org/x/exp 7918f672742d
 	golang.org/x/oauth2 v0.13.0
 	golang.org/x/xerrors v0.0.0-20220907171357-04be3eba64a2
 	gopkg.in/cheggaaa/pb.v1 v1.0.28
