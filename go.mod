@@ -19,9 +19,9 @@ require (
 	golang.org/x/exp v0.0.0-20220321124402-2d6d886f8a82
 	golang.org/x/oauth2 v0.13.0
 	golang.org/x/xerrors v0.0.0-20220907171357-04be3eba64a2
-	gopkg.in/cheggaaa/pb.v1 v1.0.28
-	gopkg.in/yaml.v2 v2.2.8
-	gopkg.in/yaml.v3 v3.0.1
+	gopkg.in/cheggaaa/pb.v1 v1.0.27
+	gopkg.in/cheggaaa/pb.v2 v2.0.7
+	gopkg.in/yaml.v2 v2.4.0
 )
 
 require (
@@ -72,7 +72,6 @@ require (
 	google.golang.org/grpc v1.55.0 // indirect
 	google.golang.org/protobuf v1.31.0 // indirect
 	gopkg.in/VividCortex/ewma.v1 v1.1.1 // indirect
-	gopkg.in/cheggaaa/pb.v2 v2.0.7 // indirect
 	gopkg.in/fatih/color.v1 v1.7.0 // indirect
 	gopkg.in/mattn/go-colorable.v0 v0.1.0 // indirect
 	gopkg.in/mattn/go-isatty.v0 v0.0.4 // indirect
