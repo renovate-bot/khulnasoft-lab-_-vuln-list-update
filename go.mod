@@ -8,7 +8,6 @@ require (
 	github.com/cheggaaa/pb v2.0.7+incompatible
 	github.com/cheggaaa/pb/v3 v3.1.4
 	github.com/hashicorp/go-getter v1.7.3
-	github.com/hashicorp/go-getter/v2 v2.2.1
 	github.com/khulnasoft-lab/goversion v1.0.1
 	github.com/kylelemons/godebug v1.1.0
 	github.com/mattn/go-jsonpointer v0.0.1
@@ -17,11 +16,10 @@ require (
 	github.com/shurcooL/graphql v0.0.0-20230722043721-ed46e5a46466
 	github.com/spf13/afero v1.10.0
 	github.com/stretchr/testify v1.8.4
-	golang.org/x/exp 7918f672742d
+	golang.org/x/exp v0.0.0-20231006140011-7918f672742d
 	golang.org/x/oauth2 v0.13.0
 	golang.org/x/xerrors v0.0.0-20220907171357-04be3eba64a2
 	gopkg.in/cheggaaa/pb.v1 v1.0.27
-	gopkg.in/cheggaaa/pb.v2 v2.0.7
 	gopkg.in/yaml.v2 v2.4.0
 )
 
@@ -73,10 +71,11 @@ require (
 	google.golang.org/grpc v1.55.0 // indirect
 	google.golang.org/protobuf v1.31.0 // indirect
 	gopkg.in/VividCortex/ewma.v1 v1.1.1 // indirect
+	gopkg.in/cheggaaa/pb.v2 v2.0.7 // indirect
 	gopkg.in/fatih/color.v1 v1.7.0 // indirect
 	gopkg.in/mattn/go-colorable.v0 v0.1.0 // indirect
 	gopkg.in/mattn/go-isatty.v0 v0.0.4 // indirect
 	gopkg.in/mattn/go-runewidth.v0 v0.0.4 // indirect
-	gopkg.in/mgo.v2 v2.0.0-20180705113604-9856a29383ce // indirect
+	gopkg.in/yaml.v3 v3.0.1 // indirect
 	moul.io/http2curl v1.0.0 // indirect
 )
