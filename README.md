@@ -30,4 +30,4 @@ Usage of vuln-list-update:
 ```
 
 ## Author
-Md Sulaiman (sulaiman-coder)
+Teppei Fukuda (knqyf263)
