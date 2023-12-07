@@ -13,7 +13,7 @@ require (
 	github.com/mattn/go-jsonpointer v0.0.1
 	github.com/parnurzeal/gorequest v0.2.16
 	github.com/shurcooL/githubv4 v0.0.0-20230704064427-599ae7bbf278
-	github.com/shurcooL/graphql v0.0.0-20181231061246-d48a9a75455f
+	github.com/shurcooL/graphql v0.0.0-20230722043721-ed46e5a46466
 	github.com/spf13/afero v1.11.0
 	github.com/stretchr/testify v1.8.4
 	golang.org/x/exp v0.0.0-20231110203233-9a3e6036ecaa
