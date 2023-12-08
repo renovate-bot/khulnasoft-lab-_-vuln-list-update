@@ -15,7 +15,7 @@ import (
 	jsonpointer "github.com/mattn/go-jsonpointer"
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/vuln-list-update/utils"
+	"github.com/khulnasoft-lab/vuln-list-update/utils"
 )
 
 type NVD struct {

@@ -8,7 +8,7 @@ import (
 	"github.com/cheggaaa/pb"
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/vuln-list-update/utils"
+	"github.com/khulnasoft-lab/vuln-list-update/utils"
 )
 
 const (
