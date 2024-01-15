@@ -1,23 +1,22 @@
 module github.com/khulnasoft-lab/vuln-list-update
 
-go 1.20
+go 1.21.5
 
 require (
 	github.com/PuerkitoBio/goquery v1.8.0
-	github.com/araddon/dateparse v0.0.0-20210429162001-6b43995a97de
+	github.com/aquasecurity/go-version v0.0.0-20210121072130-637058cfe492
+	github.com/araddon/dateparse v0.0.0-20190426192744-0d74ffceef83
 	github.com/cheggaaa/pb v2.0.7+incompatible
 	github.com/cheggaaa/pb/v3 v3.1.4
 	github.com/hashicorp/go-getter v1.7.3
-	github.com/khulnasoft-lab/goversion v1.0.1
 	github.com/kylelemons/godebug v1.1.0
-	github.com/mattn/go-jsonpointer v0.0.1
 	github.com/parnurzeal/gorequest v0.2.16
-	github.com/shurcooL/githubv4 v0.0.0-20231126234147-1cffa1f02456
+	github.com/shurcooL/githubv4 v0.0.0-20191127044304-8f68eb5628d0
 	github.com/shurcooL/graphql v0.0.0-20181231061246-d48a9a75455f
 	github.com/spf13/afero v1.11.0
 	github.com/stretchr/testify v1.8.4
 	golang.org/x/exp v0.0.0-20220321124402-2d6d886f8a82
-	golang.org/x/oauth2 v0.15.0
+	golang.org/x/oauth2 v0.16.0
 	golang.org/x/xerrors v0.0.0-20220907171357-04be3eba64a2
 	gopkg.in/yaml.v2 v2.4.0
 )
@@ -58,10 +57,10 @@ require (
 	github.com/smartystreets/goconvey v1.7.2 // indirect
 	github.com/ulikunitz/xz v0.5.10 // indirect
 	go.opencensus.io v0.24.0 // indirect
-	golang.org/x/crypto v0.16.0 // indirect
-	golang.org/x/net v0.19.0 // indirect
+	golang.org/x/crypto v0.18.0 // indirect
+	golang.org/x/net v0.20.0 // indirect
 	golang.org/x/sync v0.5.0 // indirect
-	golang.org/x/sys v0.15.0 // indirect
+	golang.org/x/sys v0.16.0 // indirect
 	golang.org/x/text v0.14.0 // indirect
 	golang.org/x/time v0.5.0 // indirect
 	google.golang.org/api v0.152.0 // indirect
