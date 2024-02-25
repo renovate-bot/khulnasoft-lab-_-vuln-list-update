@@ -30,4 +30,4 @@ Usage of vuln-list-update:
 ```
 
 ## Author
-NxPKG (nxpkg)
+NXPKG (nxpkg)
