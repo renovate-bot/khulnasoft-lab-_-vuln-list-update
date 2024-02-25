@@ -12,7 +12,7 @@
 Collect vulnerability information and save it in parsable format automatically
 
 ## Data
-https://github.com/khulnasoft-lab/vuln-list/
+https://github.com/aquasecurity/vuln-list/
 
 ## Usage
 
@@ -30,4 +30,4 @@ Usage of vuln-list-update:
 ```
 
 ## Author
-NxPKG (nxpkg)
+Teppei Fukuda (knqyf263)

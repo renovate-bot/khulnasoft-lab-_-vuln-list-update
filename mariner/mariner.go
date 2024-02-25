@@ -11,12 +11,13 @@ import (
 	"strings"
 
 	"github.com/cheggaaa/pb"
-	"github.com/khulnasoft-lab/vuln-list-update/utils"
 	"golang.org/x/xerrors"
+
+	"github.com/khulnasoft-lab/vuln-list-update/utils"
 )
 
 const (
-	repoURL = "https://github.com/microsoft/CBL-MarinerVulnerabilityData/archive/refs/heads/main.tar.gz//CBL-MarinerVulnerabilityData-main"
+	repoURL = "https://github.com/microsoft/AzureLinuxVulnerabilityData/archive/refs/heads/main.tar.gz//AzureLinuxVulnerabilityData-main"
 	cblDir  = "mariner" // CBL-Mariner Vulnerability Data
 	retry   = 3
 
